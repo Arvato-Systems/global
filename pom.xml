@@ -4,7 +4,7 @@
 
     <groupId>com.arvato-systems.t9t</groupId>
     <artifactId>global-build</artifactId>
-    <version>2.9.3</version>
+    <version>4.12-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Global root POM containing general settings, pluginManagement, profiles and repositories but no dependencyManagement</description>
 
@@ -21,7 +21,7 @@
 
     <properties>
         <!-- to be used by dependent projects (same as project.version, but must be provided explicitly so that imports work) -->
-        <global.version>2.9.3</global.version>
+        <global.version>4.12-SNAPSHOT</global.version>
 
         <!-- Build specific properties -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
