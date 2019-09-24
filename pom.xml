@@ -34,7 +34,7 @@
         <build.revision>${build.unknown}</build.revision>
 
         <!-- Plugin versions -->
-        <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-install-plugin.version>2.5.2</maven-install-plugin.version>
         <maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
         <maven-dependency-plugin.version>3.1.1</maven-dependency-plugin.version>
@@ -47,8 +47,8 @@
         <maven-war-plugin.version>3.2.2</maven-war-plugin.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <maven-jarjar-plugin.version>1.8</maven-jarjar-plugin.version>
-        <maven-enforcer-plugin.version>1.4.1</maven-enforcer-plugin.version>
-        <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
+        <maven-enforcer-plugin.version>3.0.0-M2</maven-enforcer-plugin.version>
+        <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
         <owasp-maven-plugin.version>2.1.1</owasp-maven-plugin.version>
         <spring-boot-maven-plugin.version>2.0.2.RELEASE</spring-boot-maven-plugin.version>
         <tycho.version>1.4.0</tycho.version>
@@ -72,10 +72,10 @@
         <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
 
         <!-- Versions of Xtext & Xtend plugins -->
-        <xtend-maven-plugin.version>2.18.0</xtend-maven-plugin.version>
-        <xtext-maven-plugin.version>2.18.0</xtext-maven-plugin.version>
+        <xtend-maven-plugin.version>2.19.0</xtend-maven-plugin.version>
+        <xtext-maven-plugin.version>2.19.0</xtext-maven-plugin.version>
 
-        <bonaparte-plugin.version>4.12.2</bonaparte-plugin.version>
+        <bonaparte-plugin.version>4.20.0</bonaparte-plugin.version>
 
         <xtend-plugin-phase>generate-sources</xtend-plugin-phase>
         <xtend-plugin-test-phase>generate-test-sources</xtend-plugin-test-phase>
