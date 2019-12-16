@@ -19,9 +19,9 @@
         <!-- jpaw / bonaparte: versions for import of BOM. The plugin version is defined separately in SE/EE -->
         <!-- Note that the version of the bonapart-dsl plugin is set in "global-settings" -->
         <jpaw-bom.version>2.1.0</jpaw-bom.version>
-        <bonaparte-bom.version>4.20.0</bonaparte-bom.version>   <!-- this is the version of bonaparte-java -->
-        <persistence-bom.version>4.20.0</persistence-bom.version>
-        <jdp-bom.version>1.1.0</jdp-bom.version>
+        <bonaparte-bom.version>4.21.0</bonaparte-bom.version>   <!-- this is the version of bonaparte-java -->
+        <persistence-bom.version>4.21.0</persistence-bom.version>
+        <jdp-bom.version>1.1.1</jdp-bom.version>
         <fixedpoint-bom.version>0.20.0</fixedpoint-bom.version>
         <!-- jpaw / bonaparte: versions for explicit dependency -->
         <xtendsions.version>1.7.0</xtendsions.version>
