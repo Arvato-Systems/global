@@ -18,9 +18,9 @@
 
         <!-- jpaw / bonaparte: versions for import of BOM. The plugin version is defined separately in SE/EE -->
         <!-- Note that the version of the bonapart-dsl plugin is set in "global-settings" -->
-        <jpaw-bom.version>2.1.0</jpaw-bom.version>
-        <bonaparte-bom.version>4.21.0</bonaparte-bom.version>   <!-- this is the version of bonaparte-java -->
-        <persistence-bom.version>4.21.0</persistence-bom.version>
+        <jpaw-bom.version>2.1.1</jpaw-bom.version>
+        <bonaparte-bom.version>4.31.0</bonaparte-bom.version>   <!-- this is the version of bonaparte-java -->
+        <persistence-bom.version>4.30.0</persistence-bom.version>
         <jdp-bom.version>1.1.1</jdp-bom.version>
         <fixedpoint-bom.version>0.20.0</fixedpoint-bom.version>
         <!-- jpaw / bonaparte: versions for explicit dependency -->
@@ -104,7 +104,7 @@
         <spring-bom.version>5.0.3.RELEASE</spring-bom.version>
         <spring-data-jpa.version>2.1.10.RELEASE</spring-data-jpa.version>
 
-        <netty.version>4.1.43.Final</netty.version>
+        <netty.version>4.1.45.Final</netty.version>
         <vertx3.version>3.8.4</vertx3.version>
 
         <!-- dependencies only for SE -->
@@ -115,8 +115,8 @@
         <!-- dependencies for SE and EE, but with maybe differing versions -->
         <javax.mail.version>1.6.0</javax.mail.version>
         <jadira-usertype.version>4.0.0.GA</jadira-usertype.version>
-        <jackson.version>2.9.9</jackson.version>
-        <camel.version>2.24.2</camel.version>
+        <jackson.version>2.9.10</jackson.version>
+        <camel.version>2.24.3</camel.version>
         <solr.version>6.6.1</solr.version>   <!-- must be 6.6.1 at least due to CVE-2017-9803 -->
         <activiti.version>5.19.0.2</activiti.version>
     </properties>
