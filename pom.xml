@@ -40,12 +40,12 @@
         <maven-dependency-plugin.version>3.1.1</maven-dependency-plugin.version>
         <maven-eclipse-plugin.version>2.10</maven-eclipse-plugin.version>
         <build-helper-maven-plugin.version>3.0.0</build-helper-maven-plugin.version>
-        <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
-        <maven-assembly-plugin.version>2.4</maven-assembly-plugin.version>
+        <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+        <maven-assembly-plugin.version>3.2.0</maven-assembly-plugin.version>
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-shade-plugin.version>3.2.1</maven-shade-plugin.version>
-        <maven-war-plugin.version>3.2.2</maven-war-plugin.version>
-        <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+        <maven-war-plugin.version>3.2.3</maven-war-plugin.version>
+        <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
         <maven-jarjar-plugin.version>1.8</maven-jarjar-plugin.version>
         <maven-enforcer-plugin.version>3.0.0-M2</maven-enforcer-plugin.version>
         <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
@@ -81,6 +81,16 @@
         <xtend-plugin-test-phase>generate-test-sources</xtend-plugin-test-phase>
         <xtext-plugin-phase>generate-sources</xtext-plugin-phase>
         <xtext-plugin-test-phase>generate-test-sources</xtext-plugin-test-phase>
+
+        <!-- ASCIIDoctor -->
+        <!-- the current version only works with a release candidate version of the maven plugin -->
+        <asciidoctor-maven-plugin.version>2.0.0-RC.1</asciidoctor-maven-plugin.version>
+        <asciidoctorj.version>2.2.0</asciidoctorj.version>
+        <!-- last 1.x version
+        <asciidoctor-maven-plugin.version>1.6.0</asciidoctor.maven.plugin.version>
+        <asciidoctorj.version>1.6.2</asciidoctorj.version>
+        -->
+        <jruby.version>9.2.9.0</jruby.version>
     </properties>
 
     <build>
@@ -371,6 +381,60 @@
                             <version>${logback.version}</version>
                         </dependency>
                     </dependencies>
+                </plugin>
+
+                <!-- ASCIIDoctor lifecycle -->
+                <plugin>
+                    <groupId>org.asciidoctor</groupId>
+                    <artifactId>asciidoctor-maven-plugin</artifactId>
+                    <version>${asciidoctor-maven-plugin.version}</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.jruby</groupId>
+                            <artifactId>jruby-complete</artifactId>
+                            <version>${jruby.version}</version>
+                        </dependency>
+                        <dependency>
+                            <groupId>org.asciidoctor</groupId>
+                            <artifactId>asciidoctorj</artifactId>
+                            <version>${asciidoctorj.version}</version>
+                        </dependency>
+                    </dependencies>
+                    <configuration>
+                        <sourceDirectory>src/main/asciidoc</sourceDirectory>
+                        <imagesDir>.</imagesDir>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>generate-html-doc</id>
+                            <phase>compile</phase>
+                            <goals>
+                                <goal>process-asciidoc</goal>
+                            </goals>
+                            <configuration>
+                                <backend>html5</backend>
+                                <doctype>book</doctype>
+                                <sourceHighlighter>coderay</sourceHighlighter>
+                                <preserveDirectories>true</preserveDirectories>
+                                <attributes>
+                                    <pageLayout>false</pageLayout>
+                                    <toc>left</toc>
+                                    <toclevels>3</toclevels>
+                                    <sectanchors>true</sectanchors>
+                                    <sectlinks>true</sectlinks>
+                                    <sectnums>true</sectnums>
+                                    <linkattrs>true</linkattrs>
+                                    <icons>font</icons>
+                                    <sourceLanguage>asciidoc</sourceLanguage>
+                                    <stem>true</stem>
+                                    <idprefix></idprefix>
+                                    <idseparator>-</idseparator>
+                                    <revnumber>${project.version}</revnumber>
+                                    <author>Arvato Systems GmbH</author>
+                                </attributes>
+                            </configuration>
+                        </execution>
+                    </executions>
                 </plugin>
 
                 <!-- eclipse lifecycle -->

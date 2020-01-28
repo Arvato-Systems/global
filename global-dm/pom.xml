@@ -75,7 +75,7 @@
         <groovy.version>2.4.13</groovy.version>
 
         <!-- Test support -->
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13</junit.version>
         <hamcrest.version>1.3</hamcrest.version>   <!-- upgrade to 2.1 with next release -->
         <byte-buddy.version>1.10.4</byte-buddy.version>
         <org.mockito-core.version>2.23.4</org.mockito-core.version>
@@ -119,6 +119,7 @@
         <camel.version>2.24.3</camel.version>
         <solr.version>6.6.1</solr.version>   <!-- must be 6.6.1 at least due to CVE-2017-9803 -->
         <activiti.version>5.19.0.2</activiti.version>
+        <kafka.version>2.4.0</kafka.version>
     </properties>
 
 
@@ -861,6 +862,13 @@
                 <groupId>de.jpaw</groupId>
                 <artifactId>xtend-sions</artifactId>
                 <version>${xtendsions.version}</version>
+            </dependency>
+
+            <!-- Apache kafka related dependencies -->
+            <dependency>
+                <groupId>org.apache.kafka</groupId>
+                <artifactId>kafka-clients</artifactId>
+                <version>${kafka.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
