@@ -19,7 +19,7 @@
         <!-- jpaw / bonaparte: versions for import of BOM. The plugin version is defined separately in SE/EE -->
         <!-- Note that the version of the bonapart-dsl plugin is set in "global-settings" -->
         <jpaw-bom.version>2.1.1</jpaw-bom.version>
-        <bonaparte-bom.version>4.31.0</bonaparte-bom.version>   <!-- this is the version of bonaparte-java -->
+        <bonaparte-bom.version>4.32.0</bonaparte-bom.version>   <!-- this is the version of bonaparte-java -->
         <persistence-bom.version>4.30.0</persistence-bom.version>
         <jdp-bom.version>1.1.1</jdp-bom.version>
         <fixedpoint-bom.version>0.20.0</fixedpoint-bom.version>
@@ -91,7 +91,7 @@
         <jsap.version>2.1</jsap.version>
         <httpcore.version>4.4.9</httpcore.version>
         <xmlunit.version>1.5</xmlunit.version>
-        <apache-poi.version>3.16</apache-poi.version>                   <!-- must be 3.15 at least due to CVE-2017-5644, jasper issues with 3.17 -->
+        <apache-poi.version>4.1.2</apache-poi.version>
         <freemarker.version>2.3.23</freemarker.version>
         <flyingsaucer.version>9.0.8</flyingsaucer.version>
         <javassist.version>3.26.0-GA</javassist.version>
@@ -116,7 +116,7 @@
         <javax.mail.version>1.6.0</javax.mail.version>
         <jadira-usertype.version>4.0.0.GA</jadira-usertype.version>
         <jackson.version>2.9.10</jackson.version>
-        <camel.version>2.24.3</camel.version>
+        <camel.version>3.0.1</camel.version>
         <solr.version>6.6.1</solr.version>   <!-- must be 6.6.1 at least due to CVE-2017-9803 -->
         <activiti.version>5.19.0.2</activiti.version>
         <kafka.version>2.4.0</kafka.version>
@@ -789,7 +789,32 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
-                <artifactId>camel-aws</artifactId>
+                <artifactId>camel-aws-s3</artifactId>
+                <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-aws-sqs</artifactId>
+                <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-aws-sns</artifactId>
+                <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-aws-ses</artifactId>
+                <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-direct</artifactId>
+                <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-file</artifactId>
                 <version>${camel.version}</version>
             </dependency>
 
