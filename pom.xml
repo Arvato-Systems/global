@@ -4,7 +4,7 @@
 
     <groupId>com.arvato-systems.t9t</groupId>
     <artifactId>global-build</artifactId>
-    <version>4.14.1</version>
+    <version>4.14.2</version>
     <packaging>pom</packaging>
     <description>Global root POM containing general settings, pluginManagement, profiles and repositories but no dependencyManagement</description>
 
@@ -21,7 +21,7 @@
 
     <properties>
         <!-- to be used by dependent projects (same as project.version, but must be provided explicitly so that imports work) -->
-        <global.version>4.14.1</global.version>
+        <global.version>4.14.2</global.version>
 
         <!-- Build specific properties -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -59,7 +59,7 @@
         <exec.plugin.version>1.6.0</exec.plugin.version>
         <jetty-maven-plugin.version>9.4.10.v20180503</jetty-maven-plugin.version>
         <maven-antrun-plugin.version>1.8</maven-antrun-plugin.version>
-        <cxf-codegen-plugin.version>3.2.8</cxf-codegen-plugin.version>
+        <cxf-codegen-plugin.version>3.3.6</cxf-codegen-plugin.version>
         <echo-maven-plugin.version>1.0.0</echo-maven-plugin.version>
         <fortytwo-dataloader-maven.version>1.2.0</fortytwo-dataloader-maven.version>
         <schema-loader-maven.version>1.2.2</schema-loader-maven.version>

@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.arvato-systems.t9t</groupId>
         <artifactId>global-build</artifactId>
-        <version>4.14.1</version>
+        <version>4.14.2</version>
     </parent>
 
     <artifactId>global-dm</artifactId>
@@ -41,7 +41,7 @@
 
         <!-- OR mappers -->
         <eclipselink.version>2.7.5</eclipselink.version>
-        <hibernate.version>5.4.12.Final</hibernate.version>
+        <hibernate.version>5.4.14.Final</hibernate.version>
         <hibernate-validator.version>6.0.18.Final</hibernate-validator.version>
         <ehcache.version>2.10.4</ehcache.version>
         <ehcache3.version>3.5.3</ehcache3.version>
@@ -106,6 +106,8 @@
 
         <netty.version>4.1.45.Final</netty.version>
         <vertx3.version>3.8.5</vertx3.version>
+
+        <xmlbeans.version>3.1.0</xmlbeans.version>  <!-- 3.x is required for POI 4 (xlsx) -->
 
         <!-- dependencies only for SE -->
         <c3p0.version>0.9.5.3</c3p0.version>
@@ -880,6 +882,11 @@
                 <artifactId>solr-solrj</artifactId>
                 <groupId>org.apache.solr</groupId>
                 <version>${solr.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.xmlbeans</groupId>
+                <artifactId>xmlbeans</artifactId>
+                <version>${xmlbeans.version}</version>
             </dependency>
 
             <!-- Should be provided by a BOM, but is not!!! -->
