@@ -19,8 +19,8 @@
         <!-- jpaw / bonaparte: versions for import of BOM. The plugin version is defined separately in SE/EE -->
         <!-- Note that the version of the bonapart-dsl plugin is set in "global-settings" -->
         <jpaw-bom.version>2.2.0</jpaw-bom.version>
-        <bonaparte-bom.version>4.34.3</bonaparte-bom.version>   <!-- this is the version of bonaparte-java -->
-        <persistence-bom.version>4.34.0</persistence-bom.version>
+        <bonaparte-bom.version>4.34.4</bonaparte-bom.version>   <!-- this is the version of bonaparte-java -->
+        <persistence-bom.version>4.34.1</persistence-bom.version>
         <jdp-bom.version>1.2.0</jdp-bom.version>
         <fixedpoint-bom.version>0.20.0</fixedpoint-bom.version>
         <!-- jpaw / bonaparte: versions for explicit dependency -->
@@ -41,7 +41,7 @@
 
         <!-- OR mappers -->
         <eclipselink.version>2.7.5</eclipselink.version>
-        <hibernate.version>5.4.18.Final</hibernate.version>
+        <hibernate.version>5.4.20.Final</hibernate.version>
         <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
         <ehcache.version>2.10.4</ehcache.version>
         <ehcache3.version>3.5.3</ehcache3.version>
@@ -85,7 +85,7 @@
         <zxing.version>3.3.3</zxing.version>
         <quartz.version>2.3.2</quartz.version>                         <!-- TODO: should check if 2.3.0 offers improvements (is newer, and Java 7+, quartz 2.2.3 is Java 6+) -->
         <quartz-oracle.version>2.1.7</quartz-oracle.version>           <!-- no update since 2013! -->
-        <jasperreports.version>6.11.0</jasperreports.version>
+        <jasperreports.version>6.13.0</jasperreports.version>
         <castor.version>1.2</castor.version>     <!-- pulled by jasper, version needed for CVE fix -->
         <jdtcore.version>3.1.1</jdtcore.version>
         <jsap.version>2.1</jsap.version>
