@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.arvato-systems.t9t</groupId>
         <artifactId>global-build</artifactId>
-        <version>4.15-SNAPSHOT</version>
+        <version>4.15.3</version>
     </parent>
 
     <artifactId>global-dm</artifactId>
