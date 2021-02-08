@@ -104,7 +104,7 @@
         <spring-bom.version>5.0.3.RELEASE</spring-bom.version>
         <spring-data-jpa.version>2.1.10.RELEASE</spring-data-jpa.version>
 
-        <netty.version>4.1.52.Final</netty.version>
+        <netty.version>4.1.59.Final</netty.version>
         <vertx3.version>3.9.2</vertx3.version>
 
         <xmlbeans.version>3.1.0</xmlbeans.version>  <!-- 3.x is required for POI 4 (xlsx) -->
