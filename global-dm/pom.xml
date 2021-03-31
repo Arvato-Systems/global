@@ -95,7 +95,7 @@
         <freemarker.version>2.3.23</freemarker.version>
         <flyingsaucer.version>9.0.8</flyingsaucer.version>
         <javassist.version>3.27.0-GA</javassist.version>
-        <guava.version>27.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <antlr.version>3.2</antlr.version>
         <resteasy-jaxrs.version>3.0.19.Final</resteasy-jaxrs.version>
         <googlemaps.services.version>0.2.5</googlemaps.services.version>
