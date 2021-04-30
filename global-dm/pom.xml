@@ -101,7 +101,7 @@
         <googlemaps.services.version>0.2.5</googlemaps.services.version>
         <uuid-generator.version>3.1.2</uuid-generator.version>
 
-        <spring-bom.version>5.0.3.RELEASE</spring-bom.version>
+        <spring-bom.version>5.0.19.RELEASE</spring-bom.version>
         <spring-data-jpa.version>2.1.10.RELEASE</spring-data-jpa.version>
 
         <netty.version>4.1.52.Final</netty.version>
