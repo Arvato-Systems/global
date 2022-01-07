@@ -37,7 +37,7 @@
         <driver.postgresql.version>42.2.5</driver.postgresql.version>
         <driver.sqlserver.version>6.2.2.jre8</driver.sqlserver.version>
         <driver.hana.version>1.120.19.043e2a479158ce6ef060a5c605ae2b97161e6b25</driver.hana.version>
-        <h2.version>1.4.197</h2.version>
+        <h2.version>2.0.206</h2.version>
 
         <!-- OR mappers -->
         <eclipselink.version>2.7.5</eclipselink.version>
