@@ -34,7 +34,7 @@
         <!-- Database driver versions -->
         <driver.ojdbc6.version>11.2.0</driver.ojdbc6.version>
         <driver.ojdbc8.version>12.2.0.1.0</driver.ojdbc8.version>
-        <driver.postgresql.version>42.2.5</driver.postgresql.version>
+        <driver.postgresql.version>42.2.25</driver.postgresql.version>
         <driver.sqlserver.version>6.2.2.jre8</driver.sqlserver.version>
         <driver.hana.version>1.120.19.043e2a479158ce6ef060a5c605ae2b97161e6b25</driver.hana.version>
         <h2.version>1.4.197</h2.version>
