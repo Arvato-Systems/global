@@ -41,7 +41,7 @@
 
         <!-- OR mappers -->
         <eclipselink.version>2.7.5</eclipselink.version>
-        <hibernate.version>5.4.21.Final</hibernate.version>
+        <hibernate.version>5.4.24.Final</hibernate.version>
         <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
         <ehcache.version>2.10.4</ehcache.version>
         <ehcache3.version>3.5.3</ehcache3.version>
