@@ -117,7 +117,7 @@
         <!-- dependencies for SE and EE, but with maybe differing versions -->
         <javax.mail.version>1.6.0</javax.mail.version>
         <jadira-usertype.version>4.0.0.GA</jadira-usertype.version>
-        <jackson.version>2.11.2</jackson.version>
+        <jackson.version>2.12.6.1</jackson.version>
         <camel.version>3.4.2</camel.version>
         <solr.version>6.6.1</solr.version>   <!-- must be 6.6.1 at least due to CVE-2017-9803 -->
         <activiti.version>5.19.0.2</activiti.version>
