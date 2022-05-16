@@ -97,7 +97,7 @@
         <javassist.version>3.27.0-GA</javassist.version>
         <guava.version>27.1-jre</guava.version>
         <antlr.version>3.2</antlr.version>
-        <resteasy-jaxrs.version>3.0.19.Final</resteasy-jaxrs.version>
+        <resteasy-jaxrs.version>3.14.0.Final</resteasy-jaxrs.version>
         <googlemaps.services.version>0.2.5</googlemaps.services.version>
         <uuid-generator.version>3.1.2</uuid-generator.version>
 
