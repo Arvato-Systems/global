@@ -121,7 +121,7 @@
         <camel.version>3.4.2</camel.version>
         <solr.version>6.6.1</solr.version>   <!-- must be 6.6.1 at least due to CVE-2017-9803 -->
         <activiti.version>5.19.0.2</activiti.version>
-        <kafka.version>2.4.0</kafka.version>
+        <kafka.version>2.6.3</kafka.version>
     </properties>
 
 
